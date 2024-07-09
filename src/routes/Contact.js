@@ -15,7 +15,7 @@ function Contact() {
         btnClass="hide"
       />
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

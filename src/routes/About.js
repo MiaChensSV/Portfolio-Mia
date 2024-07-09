@@ -1,6 +1,5 @@
 import Navbar from "../components/Nav/Navbar";
 import HomeHero from "../components/HomeHero";
-import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
 import AboutImg from "../assets/night.jpg";
 
@@ -14,8 +13,7 @@ function About() {
         title="About"
         btnClass="hide"
       />
-      <AboutUs />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

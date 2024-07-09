@@ -2,15 +2,46 @@ import "./ProjectStyles.css";
 import ProjectData from "./ProjectData";
 import Cocktail from "../../assets/cocktail.png";
 import Blazor from "../../assets/blazor.png";
+import Scanspark from "../../assets/scanspark.png";
+import Rental from "../../assets/rental.png";
+
 import Trip1 from "../../assets/5.jpg";
 import Trip2 from "../../assets/8.jpg";
 import Trip3 from "../../assets/6.jpg";
 
 function Project() {
   return (
-    <div className="projects">
+    <div id= "projects"className="projects">
       <h1>Projects</h1>
       <div className="projectcard">
+      <ProjectData
+          image={Rental}
+          heading="Casa Mia Holiday Rental"
+          text="This is a holiday rental website created with React and C#."
+          btn1Text="Demo"
+          btn1Link=""
+          btn2Text="Github"
+          btn2Link="https://github.com/MiaChensSV/rental"
+        />
+         <ProjectData
+          image={Scanspark}
+          heading="Static Company Site"
+          text="An introductive website for a company who is doing exporting, deployed in google cloud."
+          btn1Text="Demo"
+          btn1Link="scanspark.se"
+          btn2Text="Github"
+          btn2Link="https://github.com/MiaChensSV/scanspark"
+        />
+        
+        <ProjectData
+          image={Trip2}
+          heading="Netflix with Angular"
+          text="An Angular project to replicate the Netflix website that utilized the TMDB API, hosted on Github"
+          btn1Text="Demo"
+          btn1Link=""
+          btn2Text="Github"
+          btn2Link="https://github.com/MiaChensSV/Netflix-Angular17"
+        />
         <ProjectData
           image={Cocktail}
           heading="Cocktail Recept"
@@ -19,15 +50,6 @@ function Project() {
           btn1Link="https://cocktail-recept.netlify.app/"
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/Cocktail"
-        />
-        <ProjectData
-          image={Trip2}
-          heading="Netflix with Angular"
-          text="Utilized the TMDB API in an Angular project to replicate the Netflix website, hosted on Github"
-          btn1Text="Demo"
-          btn1Link=""
-          btn2Text="Github"
-          btn2Link="https://github.com/MiaChensSV/Netflix-Angular17"
         />
         <ProjectData
           image={Blazor}
@@ -47,19 +69,11 @@ function Project() {
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/Bmeketo"
         />
+        
         <ProjectData
           image={Trip2}
-          heading="Trip in Malaysia"
-          text=""
-          btn1Text="Demo"
-          btn1Link=""
-          btn2Text="Github"
-          btn2Link=""
-        />
-        <ProjectData
-          image={Trip2}
-          heading="Trip in Malaysia"
-          text=""
+          heading="Insurance Issue Report"
+          text="A console application where you can register as a customer, register a case about damage as a user and severvice man can make a comment, update case status."
           btn1Text="Demo"
           btn1Link=""
           btn2Text="Github"

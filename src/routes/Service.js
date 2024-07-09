@@ -15,7 +15,7 @@ function Service() {
         btnClass="hide"
       />
       <Project />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -1,0 +1,102 @@
+.resume-container {
+  color: #a9adb8;
+  overflow: hidden;
+  padding: 5%;
+  h1 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fec544;
+  }
+  .resume-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 40px;
+    .resume-column {
+      width: 45%;
+      text-align: start;
+      .resume-column-title {
+        display: flex;
+        align-items: center;
+        .resume-heading-title {
+          margin: 0 0 0 22px;
+          font-size: 28px;
+          font-weight: 400;
+          color: white;
+          line-height: 36px;
+        }
+        i {
+          margin: 0 0 0 8px;
+          font-size: 28px;
+          font-weight: 400;
+          color: #232935;
+          line-height: 36px;
+        }
+      }
+      .resume-timeline-wrap {
+        padding-top: 40px;
+        padding-left: 40px;
+        margin-left: 20px;
+        border-left: 1px solid #232935;
+        .resume-timeline {
+          position: relative;
+          padding-top: 1px;
+          margin-bottom: 50px;
+          display: inline-block;
+          .resume-title {
+            font-size: 24px;
+            font-weight: 400;
+            color: #fec544;
+            margin-top: -7px;
+            margin-bottom: 8px;
+          }
+          .resume-subTitle {
+            font-size: 18px;
+            margin-bottom: 21px;
+          }
+          .resume-place {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 19px;
+          }
+          .resume-description {
+          }
+        }
+
+        .resume-timeline ::before {
+          position: absolute;
+          content: "";
+          border: 2px solid #232935;
+          border-radius: 50%;
+          background-color: #101624;
+          width: 13px;
+          height: 13px;
+          top: 0px;
+          left: -47px;
+          transition: all 0.4s ease;
+        }
+        *,
+        .resume-timeline ::after {
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .resume-container {
+    .resume-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      .resume-column {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 850px) {
+}
