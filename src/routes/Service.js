@@ -1,7 +1,7 @@
 import Navbar from "../components/Nav/Navbar";
 import HomeHero from "../components/HomeHero";
 import AboutImg from "../assets/night.jpg";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Project from "../components/Project/Project";
 
 function Service() {

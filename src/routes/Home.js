@@ -1,6 +1,6 @@
 import Navbar from "../components/Nav/Navbar";
 import HomeHero from "../components/HomeHero";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Project from "src/components/Project/Project";
 import About from "../components/About/About"
 
