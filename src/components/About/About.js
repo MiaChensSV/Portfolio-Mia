@@ -14,7 +14,7 @@ function About() {
           </div>
           <div className="introduction">
             <h2 className="title">Hi There! I'm {personalData.userName}</h2>
-            <h4 className="subTitle">{personalData.email}</h4>
+            <h4 className="subTitle">{personalData.position}</h4>
             <div className="text">
               <p>{personalData.intro}</p>
             </div>
@@ -54,14 +54,14 @@ function About() {
               <a
                 className="download"
                 href="/assets/Mia_Chen_Resume_EN.pdf"
-                download=""
+                download="Mia_Chen_Resume_EN.pdf"
               >
                 Download CV (EN)
               </a>
               <a
                 className="download"
                 href="/assets/Mia_Chen_Resume_EN.pdf"
-                download=""
+                download="Mia_Chen_Resume_SV.pdf"
               >
                 Download CV (SV)
               </a>

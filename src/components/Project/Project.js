@@ -4,26 +4,24 @@ import Cocktail from "../../assets/cocktail.png";
 import Blazor from "../../assets/blazor.png";
 import Scanspark from "../../assets/scanspark.png";
 import Rental from "../../assets/rental.png";
-
-import Trip1 from "../../assets/5.jpg";
-import Trip2 from "../../assets/8.jpg";
-import Trip3 from "../../assets/6.jpg";
-
+import Question from "../../assets/question-in-process.png";
+import Insurance from "../../assets/insurance.png"
+import Bmeketo from "../../assets/Bmeketo.png"
 function Project() {
   return (
-    <div id= "projects"className="projects">
+    <div id="projects" className="projects">
       <h1>Projects</h1>
       <div className="projectcard">
-      <ProjectData
+        <ProjectData
           image={Rental}
           heading="Casa Mia Holiday Rental"
-          text="This is a holiday rental website created with React and C#."
+          text="This is a holiday rental website created with React."
           btn1Text="Demo"
           btn1Link=""
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/rental"
         />
-         <ProjectData
+        <ProjectData
           image={Scanspark}
           heading="Static Company Site"
           text="An introductive website for a company who is doing exporting, deployed in google cloud."
@@ -32,15 +30,14 @@ function Project() {
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/scanspark"
         />
-        
         <ProjectData
-          image={Trip2}
-          heading="Netflix with Angular"
-          text="An Angular project to replicate the Netflix website that utilized the TMDB API, hosted on Github"
+          heading="Random Question"
+          image={Question}
+          text="A small Quiz Game. Backend is using Asp.Net Core Web API. Fronend is using Angular."
           btn1Text="Demo"
           btn1Link=""
           btn2Text="Github"
-          btn2Link="https://github.com/MiaChensSV/Netflix-Angular17"
+          btn2Link="https://github.com/MiaChensSV/Random-question"
         />
         <ProjectData
           image={Cocktail}
@@ -61,18 +58,18 @@ function Project() {
           btn2Link="https://github.com/MiaChensSV/OnlineShop-Blazor-C-"
         />
         <ProjectData
-          image={Trip2}
           heading="Bmeketo"
+          image={Bmeketo}
           text="A shopping website with ASP NET Core and Entity Framework Core."
           btn1Text="Demo"
           btn1Link=""
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/Bmeketo"
         />
-        
+
         <ProjectData
-          image={Trip2}
           heading="Insurance Issue Report"
+          image={Insurance}
           text="A console application where you can register as a customer, register a case about damage as a user and severvice man can make a comment, update case status."
           btn1Text="Demo"
           btn1Link=""
