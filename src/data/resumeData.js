@@ -25,8 +25,8 @@ export const resumeData = [
     ]
   },
   {
-    title: "Experience",
-    icon: "fa-light fa-suitcase",
+    title: "Education",
+    icon: "fa-regular fa-graduation-cap",
     data: [
       {
         title: "Webbutvecklare Inom .NET ",

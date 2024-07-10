@@ -17,7 +17,7 @@ function Project() {
           heading="Casa Mia Holiday Rental"
           text="This is a holiday rental website created with React."
           btn1Text="Demo"
-          btn1Link=""
+          btn1Link="https://casamianerja.netlify.app/"
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/rental"
         />
@@ -26,7 +26,7 @@ function Project() {
           heading="Static Company Site"
           text="An introductive website for a company who is doing exporting, deployed in google cloud."
           btn1Text="Demo"
-          btn1Link="scanspark.se"
+          btn1Link="https://scanspark.se/"
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/scanspark"
         />
@@ -74,7 +74,7 @@ function Project() {
           btn1Text="Demo"
           btn1Link=""
           btn2Text="Github"
-          btn2Link=""
+          btn2Link="https://github.com/MiaChensSV/CaseHandelApp"
         />
       </div>
     </div>
