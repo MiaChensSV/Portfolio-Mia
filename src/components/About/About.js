@@ -1,8 +1,9 @@
 import "../About/About.css";
 import pic from "../../assets/cv-pic.jpg";
 import { personalData } from "../../data/personalData";
-
+import React from "react";
 function About() {
+  console.log(personalData.language);
   return (
     <>
       <div id="about" className="about">
@@ -12,34 +13,40 @@ function About() {
             <img src={pic} alt="Mia Chen" />
           </div>
           <div className="introduction">
-            {personalData.map((info, index) => {
-              <h2 className="title">Hi There! I'm {info.userName}</h2>
-            })}
-            
-            <h4 className="subTitle">Fullstack Developer</h4>
+            <h2 className="title">Hi There! I'm {personalData.userName}</h2>
+            <h4 className="subTitle">{personalData.email}</h4>
             <div className="text">
-              <p>
-                I am an enthusiastic developer, located in Helsingborg.
-                Possessing hands-on experience in React, Angular, Typescript,
-                JavaScript, C#, ASP.NET Core, Blazor, HTML, CSS and MySQL, SQL
-                Server.
-              </p>
+              <p>{personalData.intro}</p>
             </div>
             <ul className="info-content">
               <li>
-                <span>Phone</span> : <span>+1 876-369-9009</span>
+                <span>Phone</span> : <span>{personalData.phone}</span>
               </li>
               <li>
-                <span>Email</span> : <span>devis@example.com</span>
+                <span>Email</span> : <span>{personalData.email}</span>
               </li>
-
               <li>
-                <span>Language</span> : <span>English, Swedish, Chinese</span>
+                <span>Language</span> :
+                <span>
+                  {personalData.language.map((lang, index) => (
+                    <React.Fragment key={index}>
+                      {" " + lang}
+                      {index !== personalData.language.length - 1 && ", "}
+                    </React.Fragment>
+                  ))}
+                </span>
               </li>
               <li>
                 <span>LinkedIn</span> :
                 <span>
-                  <a> https://www.linkedin.com/in/mia-chen-sv/</a>
+                  <a
+                    href={personalData.LinkedIn.address}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    https://www.linkedin.com/in/mia-chen-sv/
+                  </a>
                 </span>
               </li>
             </ul>

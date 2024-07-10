@@ -24,10 +24,7 @@
         display: flex;
         align-items: flex-start;
         text-align: start;
-        a {
-          text-decoration: none;
-          color: #a9adb8;
-        }
+    
         p {
           text-align: left;
           word-wrap: break-word;

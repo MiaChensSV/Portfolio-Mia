@@ -47,6 +47,7 @@
         li {
           margin-bottom: 14px;
         }
+      
       }
       .button {
         margin-top: 43px;
@@ -72,9 +73,7 @@
           cursor: pointer;
           margin-right: 30px;
         }
-        a {
-          text-decoration: none;
-        }
+  
       }
     }
   }
