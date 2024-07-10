@@ -1,5 +1,7 @@
 import "../About/About.css";
 import pic from "../../assets/cv-pic.jpg";
+import { personalData } from "../../data/personalData";
+
 function About() {
   return (
     <>
@@ -10,9 +12,12 @@ function About() {
             <img src={pic} alt="Mia Chen" />
           </div>
           <div className="introduction">
-            <h2 class="title">Hi There! I'm Mia Chen</h2>
-            <h4 class="subTitle">Fullstack Developer</h4>
-            <div class="text">
+            {personalData.map((info, index) => {
+              <h2 className="title">Hi There! I'm {info.userName}</h2>
+            })}
+            
+            <h4 className="subTitle">Fullstack Developer</h4>
+            <div className="text">
               <p>
                 I am an enthusiastic developer, located in Helsingborg.
                 Possessing hands-on experience in React, Angular, Typescript,
@@ -20,7 +25,7 @@ function About() {
                 Server.
               </p>
             </div>
-            <ul class="info-content">
+            <ul className="info-content">
               <li>
                 <span>Phone</span> : <span>+1 876-369-9009</span>
               </li>
@@ -32,22 +37,22 @@ function About() {
                 <span>Language</span> : <span>English, Swedish, Chinese</span>
               </li>
               <li>
-                <span>LinkedIn</span> : 
+                <span>LinkedIn</span> :
                 <span>
                   <a> https://www.linkedin.com/in/mia-chen-sv/</a>
                 </span>
               </li>
             </ul>
-            <div class="button">
+            <div className="button">
               <a
-                class="download"
+                className="download"
                 href="/assets/Mia_Chen_Resume_EN.pdf"
                 download=""
               >
                 Download CV (EN)
               </a>
               <a
-                class="download"
+                className="download"
                 href="/assets/Mia_Chen_Resume_EN.pdf"
                 download=""
               >

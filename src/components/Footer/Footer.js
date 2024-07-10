@@ -10,13 +10,13 @@ const Footer = () => {
           </div>
           <div>
             <a href="mailto:miachensv@gmail.com">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
             </a>
             <a href="https://www.linkedin.com/in/mia-chen-sv/">
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://github.com/MiaChensSV">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
           </div>
         </div>
