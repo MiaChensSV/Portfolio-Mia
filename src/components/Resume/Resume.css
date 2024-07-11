@@ -54,18 +54,18 @@
           }
           .resume-subTitle {
             font-size: 18px;
-            margin-bottom: 21px;
+            margin-bottom: 10px;
           }
           .resume-place {
             font-size: 20px;
             font-weight: 400;
-            margin-bottom: 19px;
+            margin-bottom: 10px;
           }
           .resume-description {
-            ul{
-                li{
-                    padding-top: 2%;
-                }
+            ul {
+              li {
+                padding-top: 2%;
+              }
             }
           }
         }
@@ -99,6 +99,27 @@
       gap: 0;
       .resume-column {
         width: 100%;
+        .resume-timeline-wrap {
+          .resume-timeline{
+            .resume-title {
+              font-size: 18px;
+              font-weight: 400;
+              color: #fec544;
+              margin-top: -7px;
+              margin-bottom: 8px;
+            }
+            .resume-subTitle {
+              font-size: 16px;
+              margin-bottom: 5px;
+            }
+            .resume-place {
+              font-size: 16px;
+              font-weight: 400;
+              margin-bottom: 5px;
+            }
+          }
+          
+        }
       }
     }
   }
