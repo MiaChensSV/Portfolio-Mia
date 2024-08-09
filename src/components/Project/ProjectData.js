@@ -26,6 +26,13 @@ function ProjectData(props) {
         <a href={props.btn2Link} target="_blank">
           {props.btn2Text}
         </a>
+        {props.btn3Link ? (
+          <a href={props.btn3Link} target="_blank">
+            {props.btn3Text}
+          </a>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );

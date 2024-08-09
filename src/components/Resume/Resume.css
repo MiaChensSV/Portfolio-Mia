@@ -20,6 +20,12 @@
       .resume-column-title {
         display: flex;
         align-items: center;
+        img{
+          width: 30px;
+          height: 30px;
+          margin: 0 0 0 6px;
+
+        }
         .resume-heading-title {
           margin: 0 0 0 22px;
           font-size: 28px;
@@ -28,7 +34,7 @@
           line-height: 36px;
         }
         i {
-          margin: 0 0 0 8px;
+          margin: 0 0 0 6px;
           font-size: 28px;
           font-weight: 400;
           color: #232935;

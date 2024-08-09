@@ -20,6 +20,8 @@ function Project() {
           btn1Link="https://vacationnerja.com/"
           btn2Text="Github"
           btn2Link="https://github.com/MiaChensSV/casaMiaFrontend"
+          btn3Text="Github"
+          btn3Link="https://github.com/MiaChensSV/casaMiaBackend"
         />
         <ProjectData
           image={Scanspark}

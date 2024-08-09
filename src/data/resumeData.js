@@ -1,7 +1,8 @@
 export const resumeData = [
   {
     title: "Experience",
-    icon: "fa-light fa-suitcase",
+    icon: "fa-solid fa-briefcase",
+    img:"/assets/suitcase.png",
     data: [
       {
         title: "Software Developer-Internship",
@@ -26,7 +27,9 @@ export const resumeData = [
   },
   {
     title: "Education",
-    icon: "fa-regular fa-graduation-cap",
+    icon: "fa-solid fa-user-graduate",
+    img:"/assets/student.png",
+
     data: [
       {
         title: "Webbutvecklare Inom .NET ",

@@ -11,7 +11,11 @@ function Resume() {
             <React.Fragment key={resumeItem + index}>
               <div key={resumeItem + index} className="resume-column">
                 <div className="resume-column-title">
-                  <i className={resumeItem.icon}></i>
+                  <img
+                    className="icon"
+                    src={resumeItem.img}
+                    alt={resumeItem.title}
+                  />
                   <h2 className="resume-heading-title">{resumeItem.title}</h2>
                 </div>
                 <div className="resume-timeline-wrap">
