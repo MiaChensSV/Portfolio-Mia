@@ -15,11 +15,11 @@ function Project() {
         <ProjectData
           image={Rental}
           heading="Casa Mia Holiday Rental"
-          text="This is a holiday rental website created with React."
+          text="This is a holiday rental website created with React and NodeJS."
           btn1Text="Demo"
-          btn1Link="https://casamianerja.netlify.app/"
+          btn1Link="https://vacationnerja.com/"
           btn2Text="Github"
-          btn2Link="https://github.com/MiaChensSV/rental"
+          btn2Link="https://github.com/MiaChensSV/casaMiaFrontend"
         />
         <ProjectData
           image={Scanspark}
