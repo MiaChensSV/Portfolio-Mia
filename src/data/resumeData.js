@@ -14,13 +14,14 @@ export const resumeData = [
         ]
       },
       {
-        title: "Purchaser",
+        title: "Customer Service Coordinator",
         date: " 09/2014 – 08/2022",
         place: "Scanspark Group AB ",
         description: [
-          "Oversaw digital purchase records and associated costs.",
-          "Prepared reports to track inventory trends. ",
-          "Managed purchase orders and invoices. "
+          "Managed customer inquiries, providing information on product availability, orders, and pricing.",
+          "Resolved delivery-related issues. ",
+          "Provided alternative solutions when requested items were unavailable. ",
+          "Delivered after-sales support, ensuring customer satisfaction and retention."
         ]
       }
     ]
