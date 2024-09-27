@@ -53,15 +53,15 @@ function About() {
             <div className="button">
               <a
                 className="download"
-                href="/assets/Mia_Chen_Resume_EN.pdf"
-                download="Mia_Chen_Resume_EN.pdf"
+                href="/assets/Mia_Chen_EN.pdf"
+                download="Mia_Chen_EN.pdf"
               >
                 Download CV (EN)
               </a>
               <a
                 className="download"
-                href="/assets/Mia_Chen_Resume_EN.pdf"
-                download="Mia_Chen_Resume_SV.pdf"
+                href="/assets/Mia_Chen_SV.pdf"
+                download="Mia_Chen_SV.pdf"
               >
                 Download CV (SV)
               </a>
